@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/school/leuven/bac3+master1/semester2/complex_digital_design/labs/Lab2/Lab2/Lab2.srcs/sources_1/new/uart_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/school/leuven/bac3+master1/semester2/complex_digital_design/labs/Lab2/Lab2/Lab2.srcs/sources_1/imports/Lab2/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/school/leuven/bac3+master1/semester2/complex_digital_design/labs/Lab2/Lab2/Lab2.srcs/sources_1/imports/Lab2/uart_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/school/leuven/bac3+master1/semester2/complex_digital_design/labs/Lab2/Lab2/Lab2.srcs/sources_1/imports/Lab2/Debounce_Switch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Debounce_Switch
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/school/leuven/bac3+master1/semester2/complex_digital_design/labs/Lab2/Lab2/Lab2.ip_user_files/bd/design_1/ip/design_1_uart_top_0_0_1/sim/design_1_uart_top_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_uart_top_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/school/leuven/bac3+master1/semester2/complex_digital_design/labs/Lab2/Lab2/Lab2.ip_user_files/bd/design_1/ip/design_1_Debounce_Switch_0_0_1/sim/design_1_Debounce_Switch_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Debounce_Switch_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/school/leuven/bac3+master1/semester2/complex_digital_design/labs/Lab2/Lab2/Lab2.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/school/leuven/bac3+master1/semester2/complex_digital_design/labs/Lab2/Lab2/Lab2.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
