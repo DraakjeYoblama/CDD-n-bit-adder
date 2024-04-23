@@ -8,13 +8,15 @@ module uart_top_TB ();
   wire wRx, wTx;
   
   // We downscale the values in the simulation
+  localparam OPERAND_WIDTH_inst = 4;
+  localparam ADDER_WIDTH_inst = 2;
   // this will give CLKS_PER_BIT = 100 / 10 = 10
   localparam CLK_FREQ_inst  = 100;
   localparam BAUD_RATE_inst = 10;
   
   // Instantiate DUT  
   uart_top 
-  #(  .CLK_FREQ(CLK_FREQ_inst), .BAUD_RATE(BAUD_RATE_inst) )
+  #(  .OPERAND_WIDTH(OPERAND_WIDTH_inst), .ADDER_WIDTH(ADDER_WIDTH_inst), .CLK_FREQ(CLK_FREQ_inst), .BAUD_RATE(BAUD_RATE_inst) )
   uart_top_inst
   ( .iClk(rClk), .iRst(rRst), .iRx(wRx), .oTx(wTx) );
   
