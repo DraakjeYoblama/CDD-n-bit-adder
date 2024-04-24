@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date         : Tue Apr 23 18:16:37 2024
+| Date         : Wed Apr 24 23:31:42 2024
 | Host         : Omen-17 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file uart_top_control_sets_placed.rpt
 | Design       : uart_top
@@ -27,7 +27,7 @@ Table of Contents
 |    Minimum number of control sets                        |     9 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
-| Unused register locations in slices containing registers |    10 |
+| Unused register locations in slices containing registers |    12 |
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -60,10 +60,10 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | No           | No                    | No                     |               2 |            1 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |            1629 |          392 |
+| No           | Yes                   | No                     |            1627 |          399 |
 | Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |            1575 |          302 |
+| Yes          | Yes                   | No                     |            1575 |          339 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
@@ -77,11 +77,11 @@ Table of Contents
 |  iClk_IBUF_BUFG | UART_RX_INST/E[0]                        | iRst_IBUF        |                2 |              7 |         3.50 |
 |  iClk_IBUF_BUFG | UART_RX_INST/wRxData_Next                | iRst_IBUF        |                1 |              8 |         8.00 |
 |  iClk_IBUF_BUFG | UART_TX_INST/wTxData_Next                | iRst_IBUF        |                2 |              8 |         4.00 |
-|  iClk_IBUF_BUFG | rTxByte                                  | iRst_IBUF        |                2 |              8 |         4.00 |
-|  iClk_IBUF_BUFG | UART_RX_INST/FSM_onehot_rFSM_reg[1][0]   | iRst_IBUF        |               70 |            512 |         7.31 |
-|  iClk_IBUF_BUFG | UART_RX_INST/FSM_onehot_rFSM_reg[1]_0[0] | iRst_IBUF        |               89 |            512 |         5.75 |
-|  iClk_IBUF_BUFG | UART_TX_INST/E[0]                        | iRst_IBUF        |              136 |            520 |         3.82 |
-|  iClk_IBUF_BUFG |                                          | iRst_IBUF        |              392 |           1629 |         4.16 |
+|  iClk_IBUF_BUFG | rTxByte                                  | iRst_IBUF        |                3 |              8 |         2.67 |
+|  iClk_IBUF_BUFG | UART_RX_INST/FSM_onehot_rFSM_reg[1][0]   | iRst_IBUF        |               97 |            512 |         5.28 |
+|  iClk_IBUF_BUFG | UART_RX_INST/FSM_onehot_rFSM_reg[1]_0[0] | iRst_IBUF        |               91 |            512 |         5.63 |
+|  iClk_IBUF_BUFG | UART_TX_INST/E[0]                        | iRst_IBUF        |              143 |            520 |         3.64 |
+|  iClk_IBUF_BUFG |                                          | iRst_IBUF        |              399 |           1627 |         4.08 |
 +-----------------+------------------------------------------+------------------+------------------+----------------+--------------+
 
 

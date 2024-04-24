@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/douwe/Documents/Vivado Projects/cdd_n_bit_adder/cdd_n_bit_adder.runs/impl_1/uart_top.tcl"
+  variable script "C:/Users/douwe/Documents/Vivado Projects/CDD-n-bit-adder/cdd_n_bit_adder.runs/impl_1/uart_top.tcl"
   variable category "vivado_impl"
 }
 
@@ -115,8 +115,6 @@ proc step_failed { step } {
 }
 
 set_msg_config -id {HDL-1065} -limit 10000
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 
 OPTRACE "Implementation" START { ROLLUP_1 }
 OPTRACE "Phase: Init Design" START { ROLLUP_AUTO }
@@ -133,15 +131,15 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir {C:/Users/douwe/Documents/Vivado Projects/cdd_n_bit_adder/cdd_n_bit_adder.cache/wt} [current_project]
-  set_property parent.project_path {C:/Users/douwe/Documents/Vivado Projects/cdd_n_bit_adder/cdd_n_bit_adder.xpr} [current_project]
-  set_property ip_output_repo {{C:/Users/douwe/Documents/Vivado Projects/cdd_n_bit_adder/cdd_n_bit_adder.cache/ip}} [current_project]
+  set_property webtalk.parent_dir {C:/Users/douwe/Documents/Vivado Projects/CDD-n-bit-adder/cdd_n_bit_adder.cache/wt} [current_project]
+  set_property parent.project_path {C:/Users/douwe/Documents/Vivado Projects/CDD-n-bit-adder/cdd_n_bit_adder.xpr} [current_project]
+  set_property ip_output_repo {{C:/Users/douwe/Documents/Vivado Projects/CDD-n-bit-adder/cdd_n_bit_adder.cache/ip}} [current_project]
   set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet {{C:/Users/douwe/Documents/Vivado Projects/cdd_n_bit_adder/cdd_n_bit_adder.runs/synth_1/uart_top.dcp}}
+  add_files -quiet {{C:/Users/douwe/Documents/Vivado Projects/CDD-n-bit-adder/cdd_n_bit_adder.runs/synth_1/uart_top.dcp}}
 OPTRACE "read constraints: implementation" START { }
-  read_xdc {{C:/Users/douwe/Documents/Vivado Projects/cdd_n_bit_adder/cdd_n_bit_adder.srcs/constrs_1/imports/Tijdelijk/PYNQ-Z2v1.0.xdc}}
+  read_xdc {{C:/Users/douwe/Documents/Vivado Projects/CDD-n-bit-adder/cdd_n_bit_adder.srcs/constrs_1/imports/Tijdelijk/PYNQ-Z2v1.0.xdc}}
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }
