@@ -2,8 +2,8 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Wed Apr 24 23:31:07 2024
-# Process ID: 13700
+# Start of session at: Thu Apr 25 20:30:07 2024
+# Process ID: 15740
 # Current directory: C:/Users/douwe/Documents/Vivado Projects/CDD-n-bit-adder/cdd_n_bit_adder.runs/impl_1
 # Command line: vivado.exe -log uart_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source uart_top.tcl -notrace
 # Log file: C:/Users/douwe/Documents/Vivado Projects/CDD-n-bit-adder/cdd_n_bit_adder.runs/impl_1/uart_top.vdi

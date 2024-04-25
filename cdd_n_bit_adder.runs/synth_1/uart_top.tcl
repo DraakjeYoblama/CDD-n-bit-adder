@@ -72,6 +72,7 @@ proc create_report { reportName command } {
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 4
 set_param xicom.use_bs_reader 1
+set_msg_config -id {Common 17-41} -limit 10000000
 set_msg_config -id {HDL-1065} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z020clg400-1
@@ -89,7 +90,7 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
-  {C:/Users/douwe/Documents/Vivado Projects/CDD-n-bit-adder/cdd_n_bit_adder.srcs/sources_1/new/carry_select_adder_unit_Nb.v}
+  {C:/Users/douwe/Documents/Vivado Projects/CDD-n-bit-adder/cdd_n_bit_adder.srcs/sources_1/new/carry_lookahead_adder.v}
   {C:/Users/douwe/Documents/Vivado Projects/CDD-n-bit-adder/cdd_n_bit_adder.srcs/sources_1/new/full_adder.v}
   {C:/Users/douwe/Documents/Vivado Projects/CDD-n-bit-adder/cdd_n_bit_adder.srcs/sources_1/new/mp_adder.v}
   {C:/Users/douwe/Documents/Vivado Projects/CDD-n-bit-adder/cdd_n_bit_adder.srcs/sources_1/new/optimised_adder_Nb.v}
